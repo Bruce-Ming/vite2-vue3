@@ -20,6 +20,11 @@ yarn add tailwindcss@latest postcss@latest autoprefixer@latest -D
 npx tailwindcss init -p
 //tailwind.config.js中添加
 purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+
+// windiCss 下一代tailwindcss编译器,可以大大减少由于tailwindcss编译的时间,以及热模块替换的时间
+yarn add vite-plugin-windicss -D
+
+
 ```
 
 ## TODO
@@ -27,6 +32,7 @@ purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 - [x] vue-router
 - [x] vuex
 - [x] tailwindcss
+- [x] windicss
 
 ## 参考资料
 
@@ -36,3 +42,4 @@ purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 4. [vite-plugin-components](https://github.com/antfu/vite-plugin-components )
 5. [vue-router](https://github.com/vuejs/vue-router-next)
 6. [tailwindcss](https://tailwindcss.com/docs/guides/vue-3-vite)
+7. [windicss](https://windicss.netlify.app/guide/vite.html)

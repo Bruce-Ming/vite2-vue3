@@ -1,10 +1,12 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import ViteComponents from 'vite-plugin-components'
+import WindiCSS from 'vite-plugin-windicss'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
+    WindiCSS(),
     ViteComponents({// 自动导入components
       // relative paths to the directory to search for components.
       dirs: ['src/components'],

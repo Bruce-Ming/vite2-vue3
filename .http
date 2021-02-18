@@ -1,3 +1,0 @@
-curl -H "X-Auth-Token: UkOvOyP_r54V6KRVQOuIpi4LYWJ0-R8saIEEK5Z4d26" \
-     -H "X-User-Id: XFmYZ3ehrzbK53tMA" \
-     https://chat.qingtime.cn/api/v1/groups.info?roomId=jvpJwpBXs8zk4M3vf
