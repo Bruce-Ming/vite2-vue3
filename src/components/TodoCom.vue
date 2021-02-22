@@ -4,7 +4,10 @@
     v-model="todoName"
     type="text"
   >
-  <button @click="setTodo">
+  <button
+    class="mt-auto bg-violet-800 bg-opacity-50 hover:bg-opacity-75 transition-colors duration-200 rounded-xl font-semibold py-2 px-4 inline-flex"
+    @click="setTodo"
+  >
     添加
   </button>
   <ul>

@@ -21,6 +21,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { useStore } from 'vuex'
+import {useProvider} from './context/index'
 export default defineComponent({
   name: 'App',
   components: {
@@ -29,6 +30,7 @@ export default defineComponent({
   setup() {
     const store = useStore();
     console.log(store.state.todo);
+    useProvider();
 
   }
 })

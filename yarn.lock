@@ -481,6 +481,17 @@
   dependencies:
     vue-demi latest
 
+"@windicss/plugin-utils@0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.4.3.tgz#84e85fd3cd6eaf54ca72cae276f9cf0610f45e56"
+  integrity sha512-ilddLED+sZQIA9rOwE5eYwdBEBWKREvAVkkiAOOTNf7oDcP/a1cxT3f/nE4tgfhz+MC/FKcy7NkfrqfXRdEQaQ==
+  dependencies:
+    esbuild "^0.8.49"
+    esbuild-register "^2.0.0"
+    fast-glob "^3.2.5"
+    micromatch "^4.0.2"
+    windicss "^2.1.15"
+
 acorn-jsx@^5.2.0, acorn-jsx@^5.3.1:
   version "5.3.1"
   resolved "https://registry.npm.taobao.org/acorn-jsx/download/acorn-jsx-5.3.1.tgz?cache=0&sync_timestamp=1599546317194&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Facorn-jsx%2Fdownload%2Facorn-jsx-5.3.1.tgz#fc8661e11b7ac1539c47dbfea2e72b3af34d267b"
@@ -601,6 +612,11 @@ braces@^3.0.1, braces@~3.0.2:
   integrity sha1-NFThpGLujVmeI23zNs2epPiv4Qc=
   dependencies:
     fill-range "^7.0.1"
+
+buffer-from@^1.0.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
+  integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
 
 callsites@^3.0.0:
   version "3.1.0"
@@ -778,10 +794,25 @@ enquirer@^2.3.5:
   dependencies:
     ansi-colors "^4.1.1"
 
+esbuild-register@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/esbuild-register/-/esbuild-register-2.0.0.tgz#579a6eff4e5713a318602b4d305bcb6f8c5b08f9"
+  integrity sha512-98i1+7OnCURCbKaWw5wnY05e4v7uknFEER7LtVxi/lCs8U+sl6/LnITvfeoDLrsqxlA3O6BjxK8QqsirfYULfA==
+  dependencies:
+    joycon "^2.2.5"
+    pirates "^4.0.1"
+    source-map-support "^0.5.19"
+    strip-json-comments "^3.1.1"
+
 esbuild@^0.8.34:
   version "0.8.36"
   resolved "https://registry.npm.taobao.org/esbuild/download/esbuild-0.8.36.tgz?cache=0&sync_timestamp=1611659885019&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fesbuild%2Fdownload%2Fesbuild-0.8.36.tgz#f5b7c61473721c7d53ffe7c88708e25f3b6182f3"
   integrity sha1-9bfGFHNyHH1T/+fIhwjiXzthgvM=
+
+esbuild@^0.8.49:
+  version "0.8.49"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.49.tgz#3d33f71b3966611f822cf4c838115f3fbd16def2"
+  integrity sha512-itiFVYv5UZz4NooO7/Y0bRGVDGz/M/cxKbl6zyNI5pnKaz1mZjvZXAFhhDVz6rGCmcdTKj5oag6rh8DaaSSmfQ==
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -1188,6 +1219,11 @@ isexe@^2.0.0:
   resolved "https://registry.npm.taobao.org/isexe/download/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
+joycon@^2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/joycon/-/joycon-2.2.5.tgz#8d4cf4cbb2544d7b7583c216fcdfec19f6be1615"
+  integrity sha512-YqvUxoOcVPnCp0VU1/56f+iKSdvIRJYPznH22BdXV3xMk75SFXhWeJkZ8C9XxUWt1b5x2X1SxuFygW1U0FmkEQ==
+
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npm.taobao.org/js-tokens/download/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -1344,6 +1380,11 @@ natural-compare@^1.4.0:
   resolved "https://registry.npm.taobao.org/natural-compare/download/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
+node-modules-regexp@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/node-modules-regexp/-/node-modules-regexp-1.0.0.tgz#8d9dbe28964a4ac5712e9131642107c71e90ec40"
+  integrity sha1-jZ2+KJZKSsVxLpExZCEHxx6Q7EA=
+
 node-unique-machine-id@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/node-unique-machine-id/download/node-unique-machine-id-1.1.0.tgz#dbd9351da927cfc0e85a663a55e8644da384b746"
@@ -1423,6 +1464,13 @@ picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.2.1:
   version "2.2.2"
   resolved "https://registry.npm.taobao.org/picomatch/download/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha1-IfMz6ba46v8CRo9RRupAbTRfTa0=
+
+pirates@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.1.tgz#643a92caf894566f91b2b986d2c66950a8e2fb87"
+  integrity sha512-WuNqLTbMI3tmfef2TKxlQmAiLHKtFhlsCZnPIpuv2Ow0RDVO8lfy1Opf4NUzlMXLjPl+Men7AuVdX6TA+s+uGA==
+  dependencies:
+    node-modules-regexp "^1.0.0"
 
 postcss-modules-extract-imports@^2.0.0:
   version "2.0.0"
@@ -1624,7 +1672,15 @@ slice-ansi@^4.0.0:
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
 
-source-map@0.6.1, source-map@^0.6.1:
+source-map-support@^0.5.19:
+  version "0.5.19"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
+  integrity sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==
+  dependencies:
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
+
+source-map@0.6.1, source-map@^0.6.0, source-map@^0.6.1:
   version "0.6.1"
   resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.6.1.tgz?cache=0&sync_timestamp=1606747929782&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsource-map%2Fdownload%2Fsource-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
@@ -1796,13 +1852,13 @@ vite-plugin-components@^0.6.12:
     fast-glob "npm:@knightly/fast-glob@master"
     minimatch "^3.0.4"
 
-vite-plugin-windicss@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.3.0.tgz#15e026e3a78d6f0ae3b85c760c38889181f6186f"
-  integrity sha512-hfWWABAoh5E1iOMAG+L3bP/xj7KfmviHwpSVBuhddEFCDIZ9aY0lMpMAbcqXRMLY5N1lHKDHKqI2xv/mZi25NA==
+vite-plugin-windicss@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-0.4.3.tgz#f86e5a3b78882caa3cdd50cba2b08770e2d627c8"
+  integrity sha512-Lnv6OhcYzcJvecTs4LIpMSfo54rSewkHrW85IVwy8hacR0krY319jXr5nwiDpSTp6HM3QJhoJ4zxHF+t5Q+Nwg==
   dependencies:
-    fast-glob "^3.2.5"
-    windicss "^2.1.11"
+    "@windicss/plugin-utils" "0.4.3"
+    windicss "^2.1.15"
 
 vite@^2.0.0:
   version "2.0.1"
@@ -1879,10 +1935,10 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-windicss@^2.1.11:
-  version "2.1.11"
-  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.1.11.tgz#35dc9d683488dcfacf94331967b59765a505f18b"
-  integrity sha512-79mPoUmvamwdJb+MJ/ug+XILxFzrTNCXo/HmacUn3V9sRQ6w5lA9KkpTrG70N7Oab0hbIFaq+X3Yva+QLSV0Pw==
+windicss@^2.1.15:
+  version "2.1.16"
+  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.1.16.tgz#69d1474f0e30951c1ade86fb350da7c7a3496623"
+  integrity sha512-nhKsjdLe8Tkf9oYFh+ZuNxo1N7PVQeRlbjePF+3F87Ti4/TD+EPH4TvAlepDMpQaDo0HqPD6h0oyTLp2ZZDhVQ==
 
 word-wrap@^1.2.3:
   version "1.2.3"
