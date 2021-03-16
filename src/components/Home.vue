@@ -4,7 +4,7 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'Home',
   setup: () => {
-    const log = (e) => {
+    function log (e){
       console.log(e);
 
     }
@@ -14,7 +14,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <h1>主页</h1>
+  <h1>主页测试</h1>
   <SetUp
     msg="hello world"
     @delete="log"

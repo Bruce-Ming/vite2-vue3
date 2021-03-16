@@ -9,6 +9,9 @@
     <router-link to="/todo">
       TODO
     </router-link>
+    <router-link to="/baidu">
+      百度
+    </router-link>
   </nav>
   <!-- <HelloWorld msg="Hello Vue 3 + Vite" /> -->
   <!-- <Head /> -->

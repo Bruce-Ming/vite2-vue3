@@ -12,6 +12,18 @@
 <script lang="ts" setup>
 import { ref, defineProps,defineEmit,useContext } from 'vue'
 // 获取setup中的props和ctx中的
+/* 
+props:{
+  event:{
+    type: Object as PropType<自定义接口>
+     type?: PropType<T> | true | null;
+    required?: boolean;
+    default?: D | DefaultFactory<D> | null | undefined | object;
+    validator?(value: unknown): boolean;
+  }
+}
+
+*/
 const props = defineProps({
   msg: String,
 })

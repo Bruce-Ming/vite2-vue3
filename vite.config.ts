@@ -23,4 +23,20 @@ export default defineConfig({
       globalNamespaces: [],
     }),
   ],
+  server: {
+    proxy: {
+      // string shorthand
+      //'/rest': 'https://pan.baidu.com/rest',
+      // with options
+      '/rest': {
+        target: 'https://pan.baidu.com/rest',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/rest/, ''),
+        headers:{ 'User-Agent': 'pan.baidu.com',}
+      }
+      // with RegEx
+      
+    },
+    cors:true
+  }
 })
